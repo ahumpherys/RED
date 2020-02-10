@@ -8,7 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Camera.cs" t="Include" />
         <e p="CharacterMovement.cs" t="Include" />
-        <e p="ScriptOne.cs" t="Include" />
+        <e p="CODE" t="Include">
+          <e p="ScriptOne.cs" t="Include" />
+          <e p="ScriptTWO.cs" t="Include" />
+        </e>
+        <e p="RigidBodyForces.cs" t="Include" />
       </e>
       <e p="New Red.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

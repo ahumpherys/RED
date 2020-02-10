@@ -4,9 +4,9 @@ public class CharacterMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Vector3 positionDirection;
-    public float speed = 5f;
-    public float gravity = -10f;
-    public float jumpForce = 250f;
+    public float speed = 7f;
+    public float gravity = -3f;
+    public float jumpForce = 50f;
 
     void Start()
     {
@@ -25,7 +25,9 @@ public class CharacterMovement : MonoBehaviour
         controller.Move(positionDirection * Time.deltaTime);
 
        // positionDirection.z = Input.GetAxis("Horizontal") * speed;
-
+       //if (controller.isGrounded);
+       //if if (Input.GetButtonDown("Jump") && ???
+       // positionDirection.y = jumpForce;
     }
     
 }
