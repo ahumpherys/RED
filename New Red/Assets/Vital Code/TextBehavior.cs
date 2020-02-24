@@ -2,18 +2,18 @@
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
-public class ImageBehav : MonoBehaviour
+public class TextBehavior : MonoBehaviour
 {
-    private Image ImageObj;
-    
+    private Text TextObj;
+    public IntData dataObj;
     private void Start()
     {
-        ImageObj = GetComponent<Image>();
+        TextObj = GetComponent<Text>();
     }
     
     void Update()
     {
-        
+        TextObj.text = dataObj.value.ToString();
     }
 }
 //Code from following along in class
