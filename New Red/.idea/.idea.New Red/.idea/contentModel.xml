@@ -7,24 +7,25 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CODE" t="Include">
-          <e p="Camera2.cs" t="Include" />
-          <e p="CharacterMovement.cs" t="Include" />
           <e p="HW1.cs" t="Include" />
           <e p="HW2.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
           <e p="ScriptOne.cs" t="Include" />
           <e p="ScriptTWO.cs" t="Include" />
           <e p="TheCamera.cs" t="Include" />
-          <e p="TheLight.cs" t="Include" />
+          <e p="Vital Code" t="Include">
+            <e p="Camera2.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="ImageBehav.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="TextBehavior.cs" t="Include" />
+            <e p="TheLight.cs" t="Include" />
+            <e p="TriggerEvent.cs" t="Include" />
+          </e>
         </e>
+        <e p="IfState.cs" t="Include" />
         <e p="KillerOBJ.cs" t="Include" />
-        <e p="Vital Code" t="Include">
-          <e p="FloatData.cs" t="Include" />
-          <e p="ImageBehav.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
-          <e p="TextBehavior.cs" t="Include" />
-          <e p="TriggerEvent.cs" t="Include" />
-        </e>
       </e>
       <e p="New Red.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

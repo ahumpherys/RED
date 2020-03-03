@@ -10,5 +10,18 @@ public class TriggerEvent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         triggerEnterEvent.Invoke();
+        Debug.Log("Entered Trigger.");
+    }
+    
+//part of code is from triggers video in canvas modules 
+
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("Within Trigger.");
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Exited trigger.");
     }
 }
