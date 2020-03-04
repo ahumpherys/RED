@@ -6,9 +6,16 @@
     <e p="C:\Users\10828507\Documents\maya\RED\New Red" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Checkpoint,StringData,VectorData" t="Include">
+          <e p="MonoBehaviors.cs" t="Include" />
+          <e p="StringData.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
+        </e>
         <e p="CODE" t="Include">
           <e p="HW1.cs" t="Include" />
           <e p="HW2.cs" t="Include" />
+          <e p="IfState.cs" t="Include" />
+          <e p="KillerOBJ.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
           <e p="ScriptOne.cs" t="Include" />
           <e p="ScriptTWO.cs" t="Include" />
@@ -24,8 +31,6 @@
             <e p="TriggerEvent.cs" t="Include" />
           </e>
         </e>
-        <e p="IfState.cs" t="Include" />
-        <e p="KillerOBJ.cs" t="Include" />
       </e>
       <e p="New Red.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
