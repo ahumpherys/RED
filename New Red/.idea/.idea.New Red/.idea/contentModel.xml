@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10828507\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10828507\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_New Red.-1342387553.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10828507\Documents\maya\RED\New Red" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Arrays.cs" t="Include" />
         <e p="Checkpoint,StringData,VectorData" t="Include">
           <e p="MonoBehaviors.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
@@ -35,7 +34,9 @@
       <e p="New Red.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_New Red.-544862006.00" t="ExcludeRecursive" />
   </component>
 </project>
