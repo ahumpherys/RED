@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Arrays.cs" t="Include" />
         <e p="Artificial intelligence" t="Include">
+          <e p="Flip.cs" t="Include" />
           <e p="NavAgentBehavior.cs" t="Include" />
         </e>
         <e p="Checkpoint,StringData,VectorData" t="Include">
