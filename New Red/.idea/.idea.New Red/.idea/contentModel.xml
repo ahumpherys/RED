@@ -27,9 +27,13 @@
           <e p="Vital Code" t="Include">
             <e p="Camera2.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="EnemyONE.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="HealthScript.cs" t="Include" />
             <e p="ImageBehav.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="Lava.cs" t="Include" />
+            <e p="Rotate.cs" t="Include" />
             <e p="TextBehavior.cs" t="Include" />
             <e p="TheLight.cs" t="Include" />
             <e p="TriggerEvent.cs" t="Include" />
