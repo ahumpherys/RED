@@ -25,10 +25,12 @@
           <e p="ScriptTWO.cs" t="Include" />
           <e p="TheCamera.cs" t="Include" />
           <e p="Vital Code" t="Include">
+            <e p="Baddy.cs" t="Include" />
             <e p="Camera2.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="EnemyONE.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="HealthPack.cs" t="Include" />
             <e p="HealthScript.cs" t="Include" />
             <e p="ImageBehav.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
