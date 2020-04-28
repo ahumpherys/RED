@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthScript : MonoBehaviour
 {
@@ -28,11 +29,20 @@ public class HealthScript : MonoBehaviour
         if (cur_health <= 0)
         {
             cur_health = 0;
-            alive = false; 
+            alive = false;
         }
         
         cur_health -= amount;
         SetHealthBar();
+    }
+    public string LevelOne;
+
+    public void GameOver()
+    {
+        if (cur_health <= 0.3)
+        {
+            SceneManager.LoadScene("Title");
+        }
     }
 
     public void SetHealthBar()
